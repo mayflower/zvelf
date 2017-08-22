@@ -1,0 +1,15 @@
+[package]
+name = "zvelf"
+version = "0.1.0"
+authors = ["Robin Gloster <mail@glob.in>"]
+description = "Check ELF files for some compiler hardening flags."
+license = "Apache-2.0 OR MIT"
+keywords = ["elf", "security"]
+repository = "https://github.com/mayflower/zvelf"
+
+[dependencies]
+walkdir = "1"
+
+[dependencies.xmas-elf]
+git = "https://github.com/mayflower/xmas-elf"
+branch = "cleanup"
